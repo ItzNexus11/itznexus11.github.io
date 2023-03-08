@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviado!</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <a href="index.html"><button type="submit" class="btn">Reintentar</button></a>
+    <div class="popup" id="popup">
+      <img src="tick.png">
+      <h2>¡Gracias!</h2>
+      <p>Tu respuestas fueron guardadas correctamente! ¡Buen día!</p>
+      <button type="button" onclick="closePopup()">OK</button>
+    </div>
+  </div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+function closePopup(){
+  popup.classList.remove("open-popup");
+}
+
+</script>
+</body>
+</html>

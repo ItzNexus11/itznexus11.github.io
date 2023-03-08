@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Mi Huella en el Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>QUIZ - MI HUELLA EN EL MUNDO</h1>
+        <p>La huella de Carbono</p>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>1- ¿Cuál de estas opciones es la mejor para reducir la huella de carbono? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p0" ondblclick="respuesta(0,this)"> Usa tu coche con mas regularidad
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" ondblclick="respuesta(0,this)"> Moverse de forma mas sostenible
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" ondblclick="respuesta(0,this)"> Consumir energía el 100% de tu día
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2- ¿Tu crees que reducir la huella de carbono afecta al mundo? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p1" ondblclick="respuesta(1,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" ondblclick="respuesta(1,this)"> No
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" ondblclick="respuesta(1,this)"> Algunas veces
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3- ¿Tu crees que moverse de forma mas sostenible puede ayudar a reducir la huella de carbono? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p2" ondblclick="respuesta(2,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" ondblclick="respuesta(2,this)"> No
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" ondblclick="respuesta(2,this)"> Algunas veces
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4- ¿Tu crees que la huella de carbono esta dañando al mundo? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p3" ondblclick="respuesta(3,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" ondblclick="respuesta(3,this)"> No
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" ondblclick="respuesta(3,this)"> Tal vez
+            </label>
+        </section>
+        <section id="p4">
+            <h3>5- ¿Cuál de estas opciones NO harías para reducir la huella de carbono? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p4" ondblclick="respuesta(4,this)"> Desconectar todos los conectores cuando no se estén utilizando
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" ondblclick="respuesta(4,this)"> Moverte en bicicleta si es necesario
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" ondblclick="respuesta(4,this)"> Tirar la basura fuera del bote de basura
+            </label>
+        </section>
+
+        <a href="popup.html"><button onclick="">COMPLETAR</button></a>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
